@@ -1,6 +1,6 @@
 import React from 'react'
 import home from './img/home.png';
-import logo from './logo.svg'
+import logo from './img/logo.svg'
 const homePage = () => {
     return (
         <div>
@@ -38,7 +38,6 @@ const homePage = () => {
                         </form>
                     </div>
                 </div>
-
             </div>
         </div>
     )

@@ -1,13 +1,14 @@
+import React from 'react';
 import './App.css';
 import Customerpage from './Customerpage';
-import Homepage from './Homepage.js'
+import Homepage from './Homepage.js';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Customerpage/>
+    <div>
+      <Homepage/>
     </div>
-  );
+  )
 }
 
 export default App;
